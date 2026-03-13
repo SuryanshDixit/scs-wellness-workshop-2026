@@ -32,7 +32,7 @@ const Page = () => {
             <br/>
             <div className="px-5 py-2 mt-4 mb-4 auto inline-flex items-center gap-2.5 rounded-full bg-blue-100/60 text-blue-800 font-medium text-sm backdrop-blur-lg shadow-inner ring-1 ring-blue-200/50 relative overflow-hidden group">
               <div className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full blur-md"></div>
-              <span className="relative z-10">20<sup>th</sup> - 22<sup>th</sup> March, 2026</span>
+              <span className="relative z-10">20<sup>th</sup> - 22<sup>nd</sup> March, 2026</span>
             </div>
             <p className="mt-6 text-lg md:text-xl text-slate-500 max-w-lg leading-relaxed">
               A capacity-building initiative to promote mental wellbeing, strengthen coping abilities, and cultivate a compassionate campus support ecosystem.
