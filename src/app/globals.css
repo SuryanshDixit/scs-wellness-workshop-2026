@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* ============================================================
+   MOBILE RESPONSIVE FIXES — Wellness Workshop 2026
+   Target: screens <= 640px (normal mobile phones)
+   ============================================================ */
+
+@media (max-width: 640px) {
+
+  /* ─────────────────────────────────────────
+     HOME PAGE
+  ───────────────────────────────────────── */
+
+  /* Hero image height */
+  .h-\[400px\] { height: 240px !important; }
+
+  /* Motivation image height */
+  .h-\[350px\] { height: 200px !important; }
+
+  /* Section padding */
+  .py-20 { padding-top: 40px !important; padding-bottom: 40px !important; }
+
+
+  /* ─────────────────────────────────────────
+     SPEAKERS PAGE
+  ───────────────────────────────────────── */
+
+  /* Speaker image smaller on mobile */
+  .w-\[200px\] { width: 130px !important; }
+  .h-\[220px\] { height: 150px !important; }
+
+
+  /* ─────────────────────────────────────────
+     TEAM PAGE
+  ───────────────────────────────────────── */
+
+  .team-page-header {
+    padding: 40px 16px 28px !important;
+  }
+
+  .team-page-title {
+    font-size: 1.9rem !important;
+  }
+
+  .team-page-sub {
+    font-size: 14px !important;
+  }
+
+  .team-section {
+    padding: 32px 16px !important;
+  }
+
+  /* Faculty rows stack vertically */
+  .faculty-grid-row1,
+  .faculty-grid-row2 {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 16px !important;
+  }
+
+  .faculty-grid-row1 .team-card,
+  .faculty-grid-row2 .team-card {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+
+  /* Student grids all become 1 column */
+  .student-grid.cols-1,
+  .student-grid.cols-2,
+  .student-grid.cols-3 {
+    grid-template-columns: 1fr !important;
+    justify-items: center !important;
+  }
+
+  .student-grid .team-card {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+
+  /* Slightly smaller circle on mobile */
+  .team-card-img-wrap {
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .section-label {
+    font-size: 11px !important;
+    padding: 6px 14px !important;
+  }
+
+  /* ─────────────────────────────────────────
+     NAVBAR LOGO
+  ───────────────────────────────────────── */
+
+  .nav-logo img:first-child { height: 34px !important; }
+  .nav-logo img:last-child  { height: 38px !important; }
+
+}
