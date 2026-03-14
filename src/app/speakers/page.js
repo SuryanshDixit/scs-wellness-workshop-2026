@@ -53,11 +53,11 @@ const speakers = [
   },
   {
     name: "Dr. Krithika Chandrasekar",
-    role: "Author of "Have You Heard the Sound of Your Own Voice?"",
+    role: `Author of "Have You Heard the Sound of Your Own Voice?"`,
     org: "",
     link: "https://www.amazon.in/stores/author/B0978Q9RK1/about",
     image: "/speakers/WhatsApp Image 2026-03-14 at 7.54.00 PM.jpeg",
-    desc: "Krithika Chandrasekar is a celebrated author and mental health advocate best known for her profound debut book, "Have You Heard the Sound of Your Own Voice?" Published in 2022, her work is a deeply personal exploration of self-discovery, healing, and emotional resilience, blending poetry and prose to address the complexities of the human experience. Beyond her writing, Krithika is a passionate mental health educator who frequently collaborates with platforms to conduct workshops on mindfulness and creative expression for students and educators. Her storytelling focuses on the power of vulnerability and introspection, encouraging individuals to reclaim their personal narratives and find solace in their unique journeys.",
+    desc: `Krithika Chandrasekar is a celebrated author and mental health advocate best known for her profound debut book, "Have You Heard the Sound of Your Own Voice?" Published in 2022, her work is a deeply personal exploration of self-discovery, healing, and emotional resilience, blending poetry and prose to address the complexities of the human experience. Beyond her writing, Krithika is a passionate mental health educator who frequently collaborates with platforms to conduct workshops on mindfulness and creative expression for students and educators. Her storytelling focuses on the power of vulnerability and introspection, encouraging individuals to reclaim their personal narratives and find solace in their unique journeys.`,
   },
 ]
 
