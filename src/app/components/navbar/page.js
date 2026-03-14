@@ -8,7 +8,7 @@ const navItems = [
   { label: "Home",      href: "/",         emoji: "🏠" },
   { label: "Schedule",  href: "/schedule", emoji: "📅" },
   { label: "Speakers",  href: "/speakers", emoji: "🎤" },
-  { label: "Team",      href: "/team",     emoji: "🤝" },
+  { label: "People",      href: "/team",     emoji: "🤝" },
   { label: "About SCS", href: "/about",    emoji: "✨" },
 ];
 
