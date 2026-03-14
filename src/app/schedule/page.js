@@ -51,7 +51,7 @@ export default function WellnessDrawerSchedule() {
         { time: "11:00 AM", title: "Session-I: Essentials of Mental Wellbeing and Healthy Supportive Ecosystem", speaker: "Prof. SK Chaturvedi",  icon: <BookOpen      size={16} color="#6366F1" />,                 pillBg: "rgba(99,102,241,0.10)" },
         { time: "12:00 PM", title: "Discussion & Activities",                                                           icon: <Users         size={16} color="#0EA5E9" />,                 pillBg: "rgba(14,165,233,0.10)" },
         { time: "01:00 PM", title: "Lunch Break",           isBreak: true,                                             icon: <Coffee        size={16} color="#92400E" />,                 pillBg: "rgba(146,64,14,0.10)"  },
-        { time: "02:30 PM", title: "Session-II: Early Intervention and Life Skill Practices",            speaker: "Dr. Lokendra Sharma",            icon: <BookOpen      size={16} color="#6366F1" />,                 pillBg: "rgba(99,102,241,0.10)" },
+        { time: "02:30 PM", title: "Session-II: Early Intervention and Life Skill Practices",            speaker: "Dr. Lokendra Sharma & Dr. Pramod Shankhpal",            icon: <BookOpen      size={16} color="#6366F1" />,                 pillBg: "rgba(99,102,241,0.10)" },
         { time: "3:30 PM", title: "Discussion & Activities",
           icon: <Users size={16} color="#0EA5E9" />,
           pillBg: "rgba(14,165,233,0.10)" },
