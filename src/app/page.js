@@ -28,14 +28,14 @@ const Page = () => {
               Wellness Workshop 2026 <br />
               
             </h1>
-            <span className="text-blue-500 mt-2 text-2xl font-bold italic">आयुष् एवं चैतन्य की ओर</span>
+            <span className="text-blue-500 mt-2 text-2xl font-bold italic">आयुष एवं चैतन्य की ओर</span>
             <br/>
             <div className="px-5 py-2 mt-4 mb-4 auto inline-flex items-center gap-2.5 rounded-full bg-blue-100/60 text-blue-800 font-medium text-sm backdrop-blur-lg shadow-inner ring-1 ring-blue-200/50 relative overflow-hidden group">
               <div className="absolute inset-0 bg-white/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full blur-md"></div>
-              <span className="relative z-10">20<sup>th</sup> - 22<sup>nd</sup> March, 2026</span>
+              <span className="relative z-10">21<sup>st</sup> - 22<sup>nd</sup> March, 2026</span>
             </div>
             <p className="mt-6 text-lg md:text-xl text-slate-500 max-w-lg leading-relaxed">
-              A capacity-building initiative to promote mental wellbeing, strengthen coping abilities, and cultivate a compassionate campus support ecosystem.
+              A capacity-building programme to promote mental wellbeing, strengthen coping abilities, and cultivate a compassionate campus support ecosystem.
             </p>
 
             <div className="mt-10 flex gap-4">
@@ -99,7 +99,7 @@ const Page = () => {
               emphasizes the intrinsic linkage between education and mental health,
               Student Counselling Services (SCS), IIT (BHU), Varanasi, functioning as
               <span className="font-semibold"> SAKHA – a supportive companion </span>
-              in students’ academic and personal journeys, proposes to organise a
+              in students’ college journey, is organising a
               two-day Wellness & Wellbeing Capacity-Building Workshop.
             </p>
 
@@ -107,12 +107,12 @@ const Page = () => {
                 This in-person programme is designed to promote 
                 <span className="font-semibold text-slate-800"> mental wellbeing</span>, 
                 strengthen students’ coping capacities, and enable the 
-                <span className="font-semibold text-slate-800"> early identification of psychosocial concerns</span> 
-                within the campus community. The workshop aims to build a trained group of students and faculty who can 
+                <span className="font-semibold text-slate-800"> early identification of psychosocial concerns </span> 
+                within the campus community. The workshop aims to build a trained group of students and faculty members who can 
                 responsibly support peers and contribute to a 
-                <span className="font-semibold text-slate-800"> healthier academic environment</span>. The programme follows a 
-                <span className="font-semibold text-slate-800"> four-level mental health framework</span> 
-                focusing on prevention, awareness, early intervention, and professional referral.
+                <span className="font-semibold text-slate-800"> healthier college environment</span>. The programme follows a 
+                <span className="font-semibold text-slate-800"> multi-level mental health framework </span> 
+                focusing on awareness, early intervention, prevention & professional management.
               </p>
 
           </div>
