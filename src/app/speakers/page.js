@@ -5,49 +5,61 @@ import Image from "next/image"
 const speakers = [
   {
     name: "Prof. S.K. Chaturvedi",
-    role: "Designation",
-    org: "Organization",
+    role: "Former Dean, Behavioral Sciences",
+    org: "NIMHANS, Bangalore",
     image: "/speakers/SKC September 2024.JPG",
-    desc: "Prof. S. K. Chaturvedi (Dr. Santosh Kumar Chaturvedi) is a distinguished Indian psychiatrist and former Dean of Behavioural Sciences at the National Institute of Mental Health and Neurosciences (NIMHANS), Bengaluru. He served as a Senior Professor of Psychiatry. He is widely recognized for his contributions to consultation-liaison psychiatry, psycho-oncology, palliative care, neuropsychiatry, and the study of culture and mental health. Prof. Chaturvedi has authored hundreds of research papers and several books and has played a major role in postgraduate medical training and mental-health research in India.",
+    desc: "Prof. S. K. Chaturvedi is a distinguished Indian psychiatrist and former Dean of Behavioural Sciences at the National Institute of Mental Health and Neurosciences (NIMHANS), Bengaluru. He has served as a Senior Professor of Psychiatry. He is widely recognized for his contributions to consultation-liaison psychiatry, psycho-oncology, palliative care, neuropsychiatry, and the study of culture and mental health. Prof. Chaturvedi has authored hundreds of research papers and several books and has played a major role in postgraduate medical training and mental-health research in India.",
   },
   {
     name: "Dr. Lokendra Sharma",
     role: "Senior Professor",
     org: "SMS Medical College, Jaipur",
     image: "/speakers/Screenshot 2026-03-13 141908.png",
-    desc: "Dr. Sharma has contributed extensively to the field of pharmacology, particularly in areas such as drug safety, pharmacodynamics, clinical pharmacokinetics, and pharmacovigilance. He has authored or co-authored numerous research papers and academic publications and has also been involved in teaching MBBS students under India’s competency-based medical curriculum.",
+    desc: "Dr. Lokendra Sharma has contributed extensively to the field of pharmacology, particularly in areas such as drug safety, pharmacodynamics, clinical pharmacokinetics, and pharmacovigilance. He has authored or co-authored numerous research papers and academic publications and has also been involved in teaching MBBS students under India’s competency-based medical curriculum.",
   },
-  {
-    name: "Prof. Shantanu Misra",
-    role: "Designation",
-    org: "Organization",
-    image: "/speakers/speaker5.jpg",
-    desc: "Speaker description will be added here.",
-  },
-  
-  {
+    {
     name: "Dr. Jitendra Nagpal",
     role: "Senior Consultant Psychiatrist",
     org: "Moolchand Medicity, New Delhi",
     image: "/speakers/Dr-Jitendra-Nagpal.jpg",
-    desc: "Renowned psychiatrist with focus on child, adolescent and women mental health. Director of Expressions India and advisor to the Institute of Child Development and Adolescent Health.",
-  },
-  
-  {
-    name: "Dr. Geeta Mehrotra",
-    role: "Senior Consultant Psychiatrist",
-    org: "Moolchand Medicity, New Delhi",
-    image: "/speakers/Screenshot 2026-03-13 143352.png",
-    desc: "Renowned psychiatrist with focus on child, adolescent and women mental health. Director of Expressions India and advisor to the Institute of Child Development and Adolescent Health.",
+    desc: "Dr. Jitendra Nagpal is a distinguished Senior Consultant Psychiatrist and the Head of the Institute of Mental Health and Life Skills Promotion at Moolchand Medcity, New Delhi. With over 25 years of clinical experience, he is a nationally recognized expert in child, adolescent, and adult psychiatry, known for his pioneering work in life skills education and school wellness through the Expressions India program. Dr. Nagpal serves as a key advisor to national bodies like the NCPCR and CBSE, and he is a frequent mental health commentator in prominent media outlets such as The Times of India and NDTV.",
   },
 
   {
-    name: "Dr. Y.P. Balhara",
-    role: "Designation",
-    org: "Organization",
-    image: "/speakers/speaker4.jpg",
-    desc: "Speaker description will be added here.",
+    name: "Dr. Geeta Mehrotra",
+    role: "Senior Advisor (Academics and Training)",
+    org: "Expressions India",
+    image: "/speakers/Screenshot 2026-03-13 143352.png",
+    desc: "Ms. Geeta Mehrotra is a prominent National Resource Faculty in Life Skills, Positive Mental Health, and Wellbeing with Expressions India, a premier national program for wellness. A seasoned educator and counselor, she is widely recognized for her expertise in empowering adolescents and educators through impactful sessions on stress management, coping techniques, and resilience building. As a core member of the Expressions India technical resource group, she frequently collaborates with organizations like the CBSE to conduct regional summits and workshops aimed at fostering emotional and social wellbeing in young learners.",
   },
+
+  {
+    name: "Dr. Yatan Pal Singh Balhara",
+    role: "Professor of Psychiatry",
+    org: "AIIMS, New Delhi",
+    image: "/speakers/WhatsApp Image 2026-03-14 at 7.59.49 PM.jpeg",
+    desc: "Dr. Yatan Pal Singh Balhara is a distinguished Professor of Psychiatry at the National Drug Dependence Treatment Centre (NDDTC), AIIMS, New Delhi, where he also serves as the Faculty-in-Charge of the Behavioural Addictions Clinic. A globally recognized expert in addiction psychiatry, dual diagnosis, and digital mental health, he provides technical consultancy to the World Health Organization (WHO) and UNODC, and acts as a Global Master Trainer for the Colombo Plan. Dr. Balhara holds an MD from AIIMS and an International Masters in Mental Health Policy and Services, and he has published over 300 research papers focusing on substance use disorders and the psychological impacts of digital engagement.",
+  },
+
+  {
+    name: "Prof. Santanu Misra",
+    role: "Head of Institute Counselling Service",
+    org: "IIT Kanpur",
+    image: "/speakers/WhatsApp Image 2026-03-14 at 8.02.03 PM.jpeg",
+    desc: "Prof. Santanu Misra is a distinguished Professor in the Department of Earth Sciences at the Indian Institute of Technology (IIT), Kanpur, where he also serves as the Head of the Institute Counselling Service (ICS). A renowned structural geologist and a recipient of the prestigious DST Swarnajayanti Fellowship and the INSA Young Scientist Award, he leads the Experimental Rock Deformation Laboratory, a national facility. In his role at the ICS, Prof. Misra oversees crucial mental health initiatives, including suicide prevention workshops, de-addiction clinics, and extensive orientation programs for over 3,000 students annually.",
+  },
+  
+
+  
+  {
+    name: "Dr. Krithika Chandrasekar",
+    role: "Author of “Have You Heard the Sound of Your Own Voice?”",
+    
+    image: "/speakers/WhatsApp Image 2026-03-14 at 7.54.00 PM.jpeg",
+    desc: "Krithika Chandrasekar is a celebrated author and mental health advocate best known for her profound debut book, “Have You Heard the Sound of Your Own Voice?” Published in 2022, her work is a deeply personal exploration of self-discovery, healing, and emotional resilience, blending poetry and prose to address the complexities of the human experience. Beyond her writing, Krithika is a passionate mental health educator who frequently collaborates with platforms to conduct workshops on mindfulness and creative expression for students and educators. Her storytelling focuses on the power of vulnerability and introspection, encouraging individuals to reclaim their personal narratives and find solace in their unique journeys.",
+  },
+
+
 ]
 
 export default function SpeakersPage() {
