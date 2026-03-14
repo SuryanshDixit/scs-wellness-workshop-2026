@@ -22,7 +22,7 @@ export default function WellnessDrawerSchedule() {
       id: 0,
       date: "March 20",
       label: "Pre-Event",
-      theme: "Wellness Stall & Collaboration",
+      theme: "Wellness Stall - YourDOST",
       audience: "All students, faculty & staff",
       icon: <Sparkles size={28} color="#A855F7" />,
       accentColor: "#60A5FA",
@@ -46,12 +46,12 @@ export default function WellnessDrawerSchedule() {
       icon: <Sunrise size={28} color="#F97316" />,
       accentColor: "#3B82F6",
       events: [
-        { time: "09:30 AM", title: "Inaugural Ceremony",                        speaker: "Director & Dignitaries",      icon: <Star          size={16} color="#EAB308" fill="#FEF08A" />, pillBg: "rgba(234,179,8,0.12)"   },
+        { time: "09:30 AM", title: "Inaugural Ceremony",      icon: <Star          size={16} color="#EAB308" fill="#FEF08A" />, pillBg: "rgba(234,179,8,0.12)"   },
         { time: "10:30 AM", title: "Tea Break",              isBreak: true,                                             icon: <Coffee        size={16} color="#92400E" />,                 pillBg: "rgba(146,64,14,0.10)"  },
-        { time: "11:00 AM", title: "Session-I: Mental Wellbeing & Campus Climate Building", speaker: "Prof. SK Chaturvedi",  icon: <BookOpen      size={16} color="#6366F1" />,                 pillBg: "rgba(99,102,241,0.10)" },
-        { time: "12:00 PM", title: "Discussion & Activities in Session I",                                                           icon: <Users         size={16} color="#0EA5E9" />,                 pillBg: "rgba(14,165,233,0.10)" },
+        { time: "11:00 AM", title: "Session-I: Essentials of Mental Wellbeing and Healthy Supportive Ecosystem", speaker: "Prof. SK Chaturvedi",  icon: <BookOpen      size={16} color="#6366F1" />,                 pillBg: "rgba(99,102,241,0.10)" },
+        { time: "12:00 PM", title: "Discussion & Activities",                                                           icon: <Users         size={16} color="#0EA5E9" />,                 pillBg: "rgba(14,165,233,0.10)" },
         { time: "01:00 PM", title: "Lunch Break",           isBreak: true,                                             icon: <Coffee        size={16} color="#92400E" />,                 pillBg: "rgba(146,64,14,0.10)"  },
-        { time: "02:30 PM", title: "Session-II: Understanding Mental Health: Knowledge, Attitudes & Healthy Practice",            speaker: "Dr. Lokendra Sharma",            icon: <BookOpen      size={16} color="#6366F1" />,                 pillBg: "rgba(99,102,241,0.10)" },
+        { time: "02:30 PM", title: "Session-II: Early Intervention and Life Skill Practices",            speaker: "Dr. Lokendra Sharma",            icon: <BookOpen      size={16} color="#6366F1" />,                 pillBg: "rgba(99,102,241,0.10)" },
         { time: "3:30 PM", title: "Discussion & Activities",
           icon: <Users size={16} color="#0EA5E9" />,
           pillBg: "rgba(14,165,233,0.10)" },
@@ -60,7 +60,7 @@ export default function WellnessDrawerSchedule() {
           icon: <Coffee size={16} color="#92400E" />,
           pillBg: "rgba(146,64,14,0.10)"},
         { time: "05:00 PM", title: "Panel Discussion-I",
-          speaker: "Prof. Shantanu Misra",
+          speaker: "Prof. Santanu Misra, Prof. S.K. Chaturvedi, Prof. Sandeep Kumar & Prof. V. Ramanathan",
           icon: <FlaskConical  size={16} color="#10B981" />,
           pillBg: "rgba(16,185,129,0.10)" },
       ],
@@ -74,13 +74,13 @@ export default function WellnessDrawerSchedule() {
       icon: <Sun size={28} color="#FBBF24" fill="#FEF9C3" />,
       accentColor: "#1D4ED8",
       events: [
-        { time: "10:30 AM", title: "Session-III: Early Identification & Support",      speaker: "Dr. Jitendra Nagpal", icon: <BookOpen      size={16} color="#6366F1" />, pillBg: "rgba(99,102,241,0.10)" },
-        { time: "11:30 AM", title: "Activities",      speaker: "Dr. Geeta Mehrotra", icon: <Users         size={16} color="#0EA5E9" />, pillBg: "rgba(99,102,241,0.10)" },
+        { time: "10:30 AM", title: "Session-III: Capacity Building and Management Pathways",      speaker: "Dr. Jitendra Nagpal", icon: <BookOpen      size={16} color="#6366F1" />, pillBg: "rgba(99,102,241,0.10)" },
+        { time: "11:30 AM", title: "Activities",      speaker: "Ms. Geeta Mehrotra", icon: <Users         size={16} color="#0EA5E9" />, pillBg: "rgba(99,102,241,0.10)" },
         { time: "1:30 PM", title: "Lunch Break",              isBreak: true,                                  icon: <Coffee        size={16} color="#92400E" />, pillBg: "rgba(146,64,14,0.10)"  },
-        { time: "02:30 PM", title: "Session-IV: Professional Management",    speaker: "Dr. Y.P. Balhara",   icon: <GraduationCap size={16} color="#8B5CF6" />, pillBg: "rgba(139,92,246,0.10)" },
-        { time: "03:30 PM", title: "Guest Talk by Book Author",    speaker: "Krithika Chandrasekar",   icon: <BookOpen      size={16} color="#F97316" />, pillBg: "rgba(249,115,22,0.10)" },
+        { time: "02:30 PM", title: "Session-IV: Professional Management for Severe Problems/Disorders",    speaker: "Dr. Y.P. Balhara",   icon: <GraduationCap size={16} color="#8B5CF6" />, pillBg: "rgba(139,92,246,0.10)" },
+        { time: "03:30 PM", title: "Things We Wish We Heard Earlier",    speaker: "Krithika Chandrasekar",   icon: <BookOpen      size={16} color="#F97316" />, pillBg: "rgba(249,115,22,0.10)" },
         { time: "4:30 PM", title: "Tea Break",              isBreak: true,                                  icon: <Coffee        size={16} color="#92400E" />, pillBg: "rgba(146,64,14,0.10)"  },
-        { time: "05:00 PM", title: "Panel Discussion & Closing Ceremony", desc: "Redefining Academic Excellence: Integrating Emotional Wellbeing into HEI Ecosystems",                                icon: <Users         size={16} color="#0EA5E9" />, pillBg: "rgba(14,165,233,0.10)" },
+        { time: "05:00 PM", title: "Panel Discussion & Closing Ceremony", desc: "Redefining Academic Excellence: Integrating Emotional Wellbeing into HEI Ecosystems",   speaker: "Prof. M. Srivastava, Prof. Anil K. Tripathi, Prof. Rajesh Kumar, Dr. Laxman Yadav & Dr. Soumya Srivastava",                             icon: <Users         size={16} color="#0EA5E9" />, pillBg: "rgba(14,165,233,0.10)" },
         
       ],
     },
@@ -318,7 +318,7 @@ export default function WellnessDrawerSchedule() {
             </div>
           </a>
           <p className="sw-header-subtitle">
-            The programme follows a structured three-day design, wherein each day is dedicated to a distinct level of intervention as follows:
+            The programme follows a structured two-day design, wherein each day is dedicated to a distinct level of intervention as follows:
           </p>
         </header>
 
@@ -351,7 +351,7 @@ export default function WellnessDrawerSchedule() {
         {/* FOOTER */}
         <footer className="sw-footer">
           <div className="sw-footer-glass">
-            <span className="sw-footer-sanskrit">"आयुष् एवं चैतन्य की ओर"</span>
+            <span className="sw-footer-sanskrit">"आयुष एवं चैतन्य की ओर"</span>
             sakha.scs@iitbhu.ac.in
           </div>
         </footer>
