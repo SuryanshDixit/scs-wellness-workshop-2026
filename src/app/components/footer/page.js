@@ -21,6 +21,7 @@ import {
   Sparkles,
   Rows,
   Youtube,
+  Italic,
 } from 'lucide-react';
 
 // ─── Navigation data ─────────────────────────────────────────
@@ -28,6 +29,7 @@ const NAV_LINKS = [
   { label: 'Home',      href: '/',         Icon: Home,     accent: ['#34d399', '#059669'] },
   { label: 'Schedule',  href: '/schedule', Icon: Calendar, accent: ['#60a5fa', '#2563eb'] },
   { label: 'Speakers',  href: '/speakers', Icon: Mic2,     accent: ['#f472b6', '#db2777'] },
+  { label: 'Team',      href: '/team',     Icon: Rows,     accent: ['#fb923c', '#ea580c'] }, 
   { label: 'About SCS', href: '/about',    Icon: Sparkles, accent: ['#a78bfa', '#7c3aed'] },
 ];
 
@@ -327,8 +329,8 @@ export default function Footer() {
               </div>
 
               {/* Descriptor */}
-              <p style={{ fontSize: 14, color: '#48484a', lineHeight: 1.6, margin: 0, fontWeight: 400 }}>
-                Your friend on campus — dedicated to holistic wellbeing and mental health since 2019.
+              <p style={{ fontSize: 14, color: '#48484a', lineHeight: 1.6, margin: 0, fontWeight: 400}}>
+                Your friend on campus - dedicated to holistic wellbeing and mental health.
               </p>
             </div>
           </GlassCard>
@@ -383,19 +385,7 @@ export default function Footer() {
                     >
                       sakha.scs@iitbhu.ac.in
                     </a>
-                    <p>&</p>
-                    <a
-                      href="mailto:convenor.sakha@iitbhu.ac.in"
-                      style={{
-                        fontSize: 14.5,
-                        fontWeight: 600,
-                        color: '#2563eb',
-                        textDecoration: 'none',
-                        letterSpacing: '-0.01em',
-                      }}
-                    >
-                      convenor.sakha@iitbhu.ac.in
-                    </a>
+
                     </div>
                   </div>
                 </div>
@@ -423,7 +413,7 @@ export default function Footer() {
                 rel="noreferrer"
                 className="ct-directions-btn"
               >
-                <MapPin size={14} className="text-white mt-[-10px]" />
+                <MapPin size={14} className="text-white" />
               </a>
                   </Icon3D>
                   <div style={{ flex: 1 }}>
@@ -477,7 +467,7 @@ export default function Footer() {
                         marginTop: 1,
                       }}
                     >
-                      Wellness Workshop · 20<sup>th</sup> – 22<sup>nd</sup> March, 2026
+                      Wellness Workshop · 21<sup>st</sup> – 22<sup>nd</sup> March, 2026
                     </div>
                   </div>
                 </div>
@@ -524,6 +514,14 @@ export default function Footer() {
               </div>
             </GlassCard>
           </div>
+          {/* ── VIEW COUNTER ── */}
+          <div style={{ textAlign: 'center', padding: '4px 0' }}>
+            <img
+              src="https://hits.sh/your-domain.vercel.app.svg?style=flat-square&label=Total+Visits&color=2563eb&labelColor=1e293b"
+              alt="Visitor Count"
+              style={{ borderRadius: 6, height: 22 }}
+            />
+          </div>
 
           {/* ── LEGAL / WORDMARK ─────────────────────────────────── */}
           <div
@@ -547,7 +545,7 @@ export default function Footer() {
               </strong>
               <br />
               <em style={{ color: '#c7c7cc', fontSize: 11 }}>
-                "Seek, Aspire, Know Holistic Advancement"
+                "Seek, Aspire, Know, Holistic Advancement"
               </em>
             </p>
           </div>
