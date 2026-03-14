@@ -5,6 +5,7 @@ import Image from "next/image"
 const patron = {
   name: "Prof. Amit Patra",
   role: "Director, IIT (BHU), Varanasi",
+  link: "https://www.iitbhu.ac.in/dept/eee/people/amitpatra",
   image: "/team/eee_faculty_amit.png",
   desc: "Prof. Amit Patra is the Director of Indian Institute of Technology (BHU), Varanasi. A distinguished academician and researcher, he has made significant contributions to the fields of electrical engineering. Under his visionary leadership, IIT (BHU) continues to advance its mission of excellence in technical education, research, and holistic student development.",
 }
@@ -15,6 +16,7 @@ const facultyTeam = [
     role: "Faculty Coordinator",
     org: "Wellness Council",
     org2: "Student Counselling Services",
+    link: "https://prev.iitbhu.ac.in/dept/civ/people/agniveshciv",
     image: "/team/IMG_8373_0.jpeg",
   },
   {
@@ -22,6 +24,7 @@ const facultyTeam = [
     role: "Faculty Coordinator",
     org: "Wellness Council",
     org2: "Student Counselling Services",
+    link: "https://prev.iitbhu.ac.in/dept/phe/people/sjainphe",
     image: "/team/Ellipse_18.webp",
   },
   {
@@ -29,6 +32,7 @@ const facultyTeam = [
     role: "Faculty Coordinator",
     org: "Wellness Council",
     org2: "Student Counselling Services",
+    link: "https://prev.iitbhu.ac.in/dept/hss/people/akmishrahss",
     image: "/team/akm passport photo.jpg",
   },
   {
@@ -36,6 +40,7 @@ const facultyTeam = [
     role: "Associate Dean of Student's Affairs",
     org: "Student Counselling Services",
     org2: "IIT (BHU), Varanasi",
+    link: "https://prev.iitbhu.ac.in/dept/app/people/asrivastavaapp",
     image: "/team/WhatsApp Image 2026-03-12 at 7.47.15 PM.jpeg",
   },
   {
@@ -43,6 +48,7 @@ const facultyTeam = [
     role: "Dean of Student's Affairs",
     org: " ",
     org2: "IIT (BHU), Varanasi",
+    link: "https://iitbhu.ac.in/dean/dosa/people",
     image: "/team/dosa_current.jpg",
   },
 ]
@@ -53,6 +59,7 @@ const studentTeam = [
     role: "Convener",
     org: "Student Counselling Services",
     org2: "",
+    link: "https://www.linkedin.com/in/dev-gupta-7b5190271/?originalSubdomain=in",
     image: "/team/WhatsApp Image 2026-01-31 at 8.18.30 PM.jpeg",
   },
   {
@@ -60,6 +67,7 @@ const studentTeam = [
     role: "Co-Convener",
     org: "Student Counselling Services",
     org2: "",
+    link: "https://www.linkedin.com/in/ananya-agarwal-4869402a7/",
     image: "/team/WhatsApp Image 2026-03-13 at 10.05.31 PM.jpeg",
   },
   {
@@ -67,99 +75,110 @@ const studentTeam = [
     role: "Co-Convener",
     org: "Student Counselling Services",
     org2: "",
+    link: "https://www.linkedin.com/in/suryanshdixit/",
     image: "/team/IMG_20250108_265631.jpg",
   },
   {
     name: "Tushar Bansal",
     role: "Head",
+    link: "https://www.linkedin.com/in/tushar-bansal-25n05/",
     image: "/team/WhatsApp Image 2026-03-14 at 7.49.50 PM.jpeg",
   },
   {
     name: "Choullapally Sai Nanda Gopal",
     role: "Co-Head",
+    link: "https://www.linkedin.com/in/choulapally-sai-nanda-gopal-b26683213/",
     image: "/team/WhatsApp Image 2026-03-14 at 7.54.34 PM.jpeg",
   },
   {
     name: "Pranjal Kabra",
     role: "Co-Head",
+    link: "https://www.linkedin.com/in/pranjalkabra26/",
     image: "/team/WhatsApp Image 2026-03-14 at 7.46.47 PM.jpeg",
   },
 ]
 
 function MemberCard({ member }) {
   return (
-    <div className="team-card">
-      <div className="team-card-img-wrap">
-        <Image
-          src={member.image}
-          alt={member.name}
-          fill
-          className="object-cover"
-        />
-      </div>
-      <div className="team-card-info">
-        <p className="team-card-name">{member.name}</p>
-        <p className="team-card-role">{member.role}</p>
-        {member.org && (
-          <>
-            <p className="team-card-org">{member.org}</p>
-            <p className="team-card-org">{member.org2}</p>
-          </>
-        )}
-      </div>
+    <a
+      href={member.link || "#"}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: 'none', display: 'block' }}
+    >
+      <div className="team-card">
+        <div className="team-card-img-wrap">
+          <Image
+            src={member.image}
+            alt={member.name}
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="team-card-info">
+          <p className="team-card-name">{member.name}</p>
+          <p className="team-card-role">{member.role}</p>
+          {member.org && (
+            <>
+              <p className="team-card-org">{member.org}</p>
+              <p className="team-card-org">{member.org2}</p>
+            </>
+          )}
+        </div>
 
-      <style>{`
-        .team-card {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          background: #ffffff;
-          border-radius: 20px;
-          padding: 20px 16px 18px;
-          box-shadow: 0 2px 12px rgba(0,0,0,0.07), 0 0 0 1px rgba(0,0,0,0.04);
-          transition: transform 0.22s ease, box-shadow 0.22s ease;
-          cursor: default;
-        }
-        .team-card:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 8px 28px rgba(59,130,246,0.13), 0 0 0 1px rgba(59,130,246,0.08);
-        }
-        .team-card-img-wrap {
-          position: relative;
-          width: 150px;
-          height: 150px;
-          border-radius: 50%;
-          overflow: hidden;
-          border: 3px solid #e0eaff;
-          background: #f1f5f9;
-          flex-shrink: 0;
-        }
-        .team-card-info {
-          margin-top: 14px;
-          text-align: center;
-        }
-        .team-card-name {
-          font-size: 14.5px;
-          font-weight: 700;
-          color: #1e293b;
-          font-family: Georgia, serif;
-          line-height: 1.3;
-        }
-        .team-card-role {
-          font-size: 12.5px;
-          font-weight: 600;
-          color: #3b82f6;
-          margin-top: 4px;
-          letter-spacing: 0.01em;
-        }
-        .team-card-org {
-          font-size: 11.5px;
-          color: #94a3b8;
-          margin-top: 3px;
-          line-height: 1.4;
-        }
-      `}</style>
-    </div>
+        <style>{`
+          .team-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 20px 16px 18px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07), 0 0 0 1px rgba(0,0,0,0.04);
+            transition: transform 0.22s ease, box-shadow 0.22s ease;
+            cursor: pointer;
+          }
+          .team-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 28px rgba(59,130,246,0.13), 0 0 0 1px rgba(59,130,246,0.08);
+          }
+          .team-card-img-wrap {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #e0eaff;
+            background: #f1f5f9;
+            flex-shrink: 0;
+          }
+          .team-card-info {
+            margin-top: 14px;
+            text-align: center;
+          }
+          .team-card-name {
+            font-size: 14.5px;
+            font-weight: 700;
+            color: #1e293b;
+            font-family: Georgia, serif;
+            line-height: 1.3;
+          }
+          .team-card-role {
+            font-size: 12.5px;
+            font-weight: 600;
+            color: #3b82f6;
+            margin-top: 4px;
+            letter-spacing: 0.01em;
+          }
+          .team-card-org {
+            font-size: 11.5px;
+            color: #94a3b8;
+            margin-top: 3px;
+            line-height: 1.4;
+          }
+        `}</style>
+      </div>
+    </a>
   )
 }
 
@@ -254,6 +273,8 @@ export default function TeamPage() {
           max-width: 860px;
           margin: 0 auto;
           transition: transform 0.22s ease, box-shadow 0.22s ease;
+          text-decoration: none;
+          cursor: pointer;
         }
         .patron-card:hover {
           transform: translateY(-4px);
@@ -388,21 +409,28 @@ export default function TeamPage() {
           <div className="section-divider-line" />
         </div>
 
-        <div className="patron-card">
-          <div className="patron-img-wrap">
-            <Image
-              src={patron.image}
-              alt={patron.name}
-              fill
-              className="object-cover"
-            />
+        <a
+          href={patron.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none', display: 'block' }}
+        >
+          <div className="patron-card">
+            <div className="patron-img-wrap">
+              <Image
+                src={patron.image}
+                alt={patron.name}
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="patron-info">
+              <p className="patron-name">{patron.name}</p>
+              <p className="patron-role">{patron.role}</p>
+              <p className="patron-desc">{patron.desc}</p>
+            </div>
           </div>
-          <div className="patron-info">
-            <p className="patron-name">{patron.name}</p>
-            <p className="patron-role">{patron.role}</p>
-            <p className="patron-desc">{patron.desc}</p>
-          </div>
-        </div>
+        </a>
       </div>
 
       <div className="section-sep" />
