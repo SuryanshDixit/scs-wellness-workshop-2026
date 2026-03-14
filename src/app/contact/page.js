@@ -318,7 +318,7 @@ export default function ContactPage() {
           <div className="ct-pill">✦ Get in Touch</div>
           <h1 className="ct-hero-title">Let's <em>Connect</em></h1>
           <p className="ct-hero-sub">
-            Reach out to SAKHA — we're here to support your wellness journey at IIT (BHU).
+            Reach out to SAKHA — we're here to support your college journey in IIT (BHU).
           </p>
         </header>
 
