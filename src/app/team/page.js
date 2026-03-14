@@ -3,26 +3,19 @@
 import Image from "next/image"
 
 const facultyTeam = [
-  {
-    name: "Prof. Rajesh Kumar",
-    role: "Dean of Student's Affairs",
-    org: " ",
-    org2: "IIT (BHU), Varanasi",
-    image: "/team/dosa_current.jpg",
-  },
-  {
-    name: "Prof. Abhishek Kumar Srivastava",
-    role: "Associate Dean of Student's Affairs",
-    org: "Student Counselling Services",
-    org2: "IIT (BHU), Varanasi",
-    image: "/team/WhatsApp Image 2026-03-12 at 7.47.15 PM.jpeg",
-  },
-  {
+    {
     name: "Dr. Agnivesh P.",
     role: "Faculty Coordinator",
     org: "Wellness Council",
     org2: "Student Counselling Services",
     image: "/team/IMG_8373_0.jpeg",
+  },
+  {
+    name: "Dr. Shreyans Kumar Jain",
+    role: "Faculty Coordinator",
+    org: "Wellness Council",
+    org2: "Student Counselling Services",
+    image: "/team/Ellipse_18.webp",
   },
   {
     name: "Dr. Ajit Kumar Mishra",
@@ -32,12 +25,20 @@ const facultyTeam = [
     image: "/team/akm passport photo.jpg",
   },
   {
-    name: "Dr. Shreyans Kumar Jain",
-    role: "Faculty Coordinator",
-    org: "Wellness Council",
-    org2: "Student Counselling Services",
-    image: "/team/Ellipse_18.webp",
+    name: "Prof. Abhishek Kumar Srivastava",
+    role: "Associate Dean of Student's Affairs",
+    org: "Student Counselling Services",
+    org2: "IIT (BHU), Varanasi",
+    image: "/team/WhatsApp Image 2026-03-12 at 7.47.15 PM.jpeg",
   },
+  {
+    name: "Prof. Rajesh Kumar",
+    role: "Dean of Student's Affairs",
+    org: " ",
+    org2: "IIT (BHU), Varanasi",
+    image: "/team/dosa_current.jpg",
+  },
+
 ]
 
 const studentTeam = [
@@ -330,7 +331,7 @@ export default function TeamPage() {
       {/* Header */}
       <div className="team-page-header">
         <div className="team-badge">🌿 Wellness Workshop 2026</div>
-        <h1 className="team-page-title">Organizing Team</h1>
+        <h1 className="team-page-title">Event Coordination Team</h1>
         
       </div>
 
@@ -338,23 +339,25 @@ export default function TeamPage() {
       <div className="team-section">
         <div className="section-divider">
           <div className="section-divider-line" />
-          <span className="section-label faculty">🎓 Faculty Team</span>
+          <span className="section-label faculty">🎓 Faculties</span>
           <div className="section-divider-line" />
         </div>
 
-        {/* Row 1 — first 2 cards */}
+        {/* Row 1 — last 3 cards */}
+        <div className="faculty-grid-row2">
+          {facultyTeam.slice(2, 5).map((m, i) => (
+            <MemberCard key={i} member={m} />
+          ))}
+        </div>
+
+        {/* Row 2 — first 2 cards */}
         <div className="faculty-grid-row1">
           {facultyTeam.slice(0, 2).map((m, i) => (
             <MemberCard key={i} member={m} />
           ))}
         </div>
 
-        {/* Row 2 — last 3 cards */}
-        <div className="faculty-grid-row2">
-          {facultyTeam.slice(2, 5).map((m, i) => (
-            <MemberCard key={i} member={m} />
-          ))}
-        </div>
+
       </div>
 
       <div className="section-sep" />
@@ -363,8 +366,18 @@ export default function TeamPage() {
       <div className="team-section">
         <div className="section-divider">
           <div className="section-divider-line" />
-          <span className="section-label student">🌱 Student Team</span>
+          <span className="section-label student">🌱 Students</span>
           <div className="section-divider-line" />
+        </div>
+
+        {/* Heads */}
+        <div className="student-role-group">
+          <p className="role-group-title">Heads (Wellness Council)</p>
+          <div className="student-grid cols-3">
+            {studentTeam.slice(3, 6).map((m, i) => (
+              <MemberCard key={i} member={m} />
+            ))}
+          </div>
         </div>
 
         {/* Convener */}
@@ -385,25 +398,17 @@ export default function TeamPage() {
           </div>
         </div>
 
-        {/* Heads */}
-        <div className="student-role-group">
-          <p className="role-group-title">Heads (Wellness Council)</p>
-          <div className="student-grid cols-3">
-            {studentTeam.slice(3, 6).map((m, i) => (
-              <MemberCard key={i} member={m} />
-            ))}
-          </div>
-        </div>
 
-        {/* Co-Heads */}
-        <div className="student-role-group">
-          <p className="role-group-title">Co-Heads</p>
-          <div className="student-grid cols-3">
-            {studentTeam.slice(6).map((m, i) => (
-              <MemberCard key={i} member={m} />
-            ))}
-          </div>
-        </div>
+
+        // {/* Co-Heads */}
+        // <div className="student-role-group">
+        //   <p className="role-group-title">Co-Heads</p>
+        //   <div className="student-grid cols-3">
+        //     {studentTeam.slice(6).map((m, i) => (
+        //       <MemberCard key={i} member={m} />
+        //     ))}
+        //   </div>
+        // </div>
 
       </div>
     </div>
