@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image"
-
+ 
 const patron = {
   name: "Prof. Amit Patra",
   role: "Director, IIT (BHU), Varanasi",
