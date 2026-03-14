@@ -477,15 +477,14 @@ export default function AboutUs() {
         <header className="ab-hero">
           <div className="ab-hero-pill"><GraduationCap size={13} /> Student Counselling Services · IIT (BHU) Varanasi</div>
           <h1 className="ab-hero-title">About <em>SAKHA</em></h1>
-          <span className="ab-hero-tagline">"Seek, Aspire, Know Holistic Advancement"</span>
+          <span className="ab-hero-tagline">"Seek, Aspire, Know, Holistic Advancement"</span>
           <p className="ab-hero-desc">
-            <strong>SAKHA</strong> — "Your Friend in Campus" — is the Student Counselling Services of IIT (BHU),
-            a faculty-student body dedicated to the holistic development and wellbeing of students since April 2019.
+            <strong>SAKHA</strong> - "Your Friend in Campus" : is a faculty - student body dedicated to the holistic development and wellbeing of students.
           </p>
           <div className="ab-hero-badges">
             <span className="ab-hero-badge"><MapPin size={14} /> IIT (BHU), Varanasi</span>
             <span className="ab-hero-badge"><Star size={14} /> Est. 2nd April, 2019</span>
-            <span className="ab-hero-badge"><Heart size={14} /> Mental Health &amp; Wellness</span>
+            {/* <span className="ab-hero-badge"><Heart size={14} /> Mental Health &amp; Wellness</span> */}
           </div>
           <div className="ab-scroll-hint"><ChevronDown size={18} />Explore</div>
         </header>
@@ -513,8 +512,7 @@ export default function AboutUs() {
             <br />
             <p className="ab-body">
               In alignment with the <strong>National Education Policy (NEP) 2020</strong>, which emphasises the intrinsic linkage
-              between education and mental health, <strong>Student Counselling Services (SCS), IIT (BHU)</strong>, functioning as SAKHA
-              — a supportive companion in students' academic and personal journeys — proposes to organise a
+              between education and mental health, <strong>Student Counselling Services (SCS), IIT (BHU)</strong>, functioning as SAKHA - a supportive companion in students' academic and personal journeys - proposes to organise a
               <strong> Wellness &amp; Wellbeing Capacity-Building Workshop</strong>.
             </p>
             <div className="ab-nep-tag"><ShieldCheck size={13} /> Aligned with NEP 2020</div>
@@ -523,10 +521,10 @@ export default function AboutUs() {
 
         <div className="ab-section">
           <div className="ab-glass-card">
-            <p className="ab-eyebrow"><Brain size={14} /> Four-Level Framework</p>
+            <p className="ab-eyebrow"><Brain size={14} /> Multi-Level Framework</p>
             <h2 className="ab-title">Our Mental Health Approach</h2>
             <div className="ab-divider" />
-            <p className="ab-body">The programme adopts a <strong>four-level mental health and wellbeing framework</strong> encompassing prevention, awareness, early intervention, and professional referral.</p>
+            <p className="ab-body">The programme adopts a <strong>multi-level mental health and wellbeing framework</strong> encompassing prevention, awareness, early intervention, and professional referral.</p>
             <div className="ab-framework-grid">
               {frameworks.map((f, i) => (
                 <div key={i} className="ab-framework-item">
@@ -560,9 +558,10 @@ export default function AboutUs() {
             <p className="ab-eyebrow"><Users size={14} /> Beneficiaries</p>
             <h2 className="ab-title">Who Attends the Workshop</h2>
             <div className="ab-divider" />
-            <p className="ab-body">The workshop serves registered students. See the <a href="https://docs.google.com/spreadsheets/u/3/d/e/2PACX-1vRpsQPfOS0GmaZoYHaJVmjd9nUx3kxeEaS07IEo2mjyr5T5u3yrISEY0lhNoRGdCiSlab2uU-2twz0Y/pubhtml" className="text-blue-800 underline font-bold"> Complete List </a></p>
+            <p className="ab-body">The workshop serves registered students. See the <a href="https://docs.google.com/spreadsheets/u/3/d/e/2PACX-1vRpsQPfOS0GmaZoYHaJVmjd9nUx3kxeEaS07IEo2mjyr5T5u3yrISEY0lhNoRGdCiSlab2uU-2twz0Y/pubhtml" className="text-blue-800 underline font-bold"> Students List </a></p>
             
             <p className="ab-body" style={{ marginTop: 20 }}>Additionally: Other Faculty Members, Research Students, Counsellors, and Psychologists.</p>
+            <p className="text-red-900 italic" style={{marginTop: 20}}>*Note : The complete list will be updated soon.</p>
           </div>
         </div>
 
