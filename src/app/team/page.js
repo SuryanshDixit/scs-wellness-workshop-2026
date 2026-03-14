@@ -400,16 +400,6 @@ export default function TeamPage() {
 
 
 
-        // {/* Co-Heads */}
-        // <div className="student-role-group">
-        //   <p className="role-group-title">Co-Heads</p>
-        //   <div className="student-grid cols-3">
-        //     {studentTeam.slice(6).map((m, i) => (
-        //       <MemberCard key={i} member={m} />
-        //     ))}
-        //   </div>
-        // </div>
-
       </div>
     </div>
   )
