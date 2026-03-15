@@ -64,7 +64,7 @@ const speakers = [
     role: `Professor, Department of Pharmacology`,
     org: "T.N. Medical College & B.Y.L. Nair Charitable Hospital",
     link: "#",
-    image: "/speakers/WhatsApp Image 2026-03-14 at 7.54.00 PM.jpeg",
+    image: "/speakers/Screenshot 2026-03-15 121259.png",
     desc: `Dr. Pramod D. Shankpal is a distinguished Professor of Pharmacology at T.N. Medical College, Mumbai, with over three decades of teaching experience. He holds an MBBS from Grant Medical College and an MD in Pharmacology from TNMC. Beyond academics, he has served on ethics committees, acted as a subject expert for CDSCO inspections, and led mental health awareness initiatives. His research spans analgesics, anti-inflammatory agents, HIV therapy, and NSAID effects, with numerous publications in respected national and international journals.`,
   },
 ]
