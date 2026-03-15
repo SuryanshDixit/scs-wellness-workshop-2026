@@ -29,7 +29,7 @@ const NAV_LINKS = [
   { label: 'Home',      href: '/',         Icon: Home,     accent: ['#34d399', '#059669'] },
   { label: 'Schedule',  href: '/schedule', Icon: Calendar, accent: ['#60a5fa', '#2563eb'] },
   { label: 'Speakers',  href: '/speakers', Icon: Mic2,     accent: ['#f472b6', '#db2777'] },
-  { label: 'Team',      href: '/team',     Icon: Rows,     accent: ['#fb923c', '#ea580c'] }, 
+  { label: 'People',      href: '/team',     Icon: Rows,     accent: ['#fb923c', '#ea580c'] }, 
   { label: 'About SCS', href: '/about',    Icon: Sparkles, accent: ['#a78bfa', '#7c3aed'] },
 ];
 
@@ -384,6 +384,19 @@ export default function Footer() {
                       }}
                     >
                       sakha.scs@iitbhu.ac.in
+                    </a>
+                    &
+                    <a
+                      href="mailto:adosa_scs@iitbhu.ac.in"
+                      style={{
+                        fontSize: 14.5,
+                        fontWeight: 600,
+                        color: '#2563eb',
+                        textDecoration: 'none',
+                        letterSpacing: '-0.01em',
+                      }}
+                    >
+                      adosa_scs@iitbhu.ac.in
                     </a>
 
                     </div>
