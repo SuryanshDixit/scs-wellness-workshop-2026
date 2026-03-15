@@ -60,9 +60,9 @@ const speakers = [
     desc: `Krithika Chandrasekar is a celebrated author and mental health advocate best known for her profound debut book, "Have You Heard the Sound of Your Own Voice?" Published in 2022, her work is a deeply personal exploration of self-discovery, healing, and emotional resilience, blending poetry and prose to address the complexities of the human experience. Beyond her writing, Krithika is a passionate mental health educator who frequently collaborates with platforms to conduct workshops on mindfulness and creative expression for students and educators. Her storytelling focuses on the power of vulnerability and introspection, encouraging individuals to reclaim their personal narratives and find solace in their unique journeys.`,
   },
   {
-    name: "Dr.P.D. Shankpal",
+    name: "Dr. P.D. Shankpal",
     role: `Professor, Department of Pharmacology`,
-    org: "T.N. Medical College & B.Y.L. Nair Charitable Hospital",
+    org: "T.N. Medical College & B.Y.L. Nair Charitable Hospital, Mumbai",
     link: "#",
     image: "/speakers/Screenshot 2026-03-15 121259.png",
     desc: `Dr. Pramod D. Shankpal is a distinguished Professor of Pharmacology at T.N. Medical College, Mumbai, with over three decades of teaching experience. He holds an MBBS from Grant Medical College and an MD in Pharmacology from TNMC. Beyond academics, he has served on ethics committees, acted as a subject expert for CDSCO inspections, and led mental health awareness initiatives. His research spans analgesics, anti-inflammatory agents, HIV therapy, and NSAID effects, with numerous publications in respected national and international journals.`,
