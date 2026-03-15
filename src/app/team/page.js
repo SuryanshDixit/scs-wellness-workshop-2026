@@ -40,7 +40,7 @@ const facultyTeam = [
     role: "Associate Dean of Student's Affairs",
     org: "Student Counselling Services",
     org2: "IIT (BHU), Varanasi",
-    link: "https://prev.iitbhu.ac.in/dept/app/people/asrivastavaapp",
+    link: "https://iitbhu.ac.in/dept/phy/people/asrivastavaapp",
     image: "/team/WhatsApp Image 2026-03-12 at 7.47.15 PM.jpeg",
   },
   {
