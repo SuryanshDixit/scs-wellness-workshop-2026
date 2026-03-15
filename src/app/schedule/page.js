@@ -60,7 +60,7 @@ export default function WellnessDrawerSchedule() {
           icon: <Coffee size={16} color="#92400E" />,
           pillBg: "rgba(146,64,14,0.10)"},
         { time: "05:00 PM", title: "Panel Discussion-I",
-          speaker: "Prof. Santanu Misra, Prof. S.K. Chaturvedi, Prof. Sandeep Kumar & Prof. V. Ramanathan",
+          speaker: "Prof. Santanu Misra, Prof. S.K. Chaturvedi, Prof. Sandeep Kumar & Prof. Anil Kumar Tripathi",
           icon: <FlaskConical  size={16} color="#10B981" />,
           pillBg: "rgba(16,185,129,0.10)" },
       ],
@@ -80,7 +80,7 @@ export default function WellnessDrawerSchedule() {
         { time: "02:30 PM", title: "Session-IV: Professional Management for Severe Problems/Disorders",    speaker: "Dr. Y.P. Balhara",   icon: <GraduationCap size={16} color="#8B5CF6" />, pillBg: "rgba(139,92,246,0.10)" },
         { time: "03:30 PM", title: "Things We Wish We Heard Earlier",    speaker: "Krithika Chandrasekar",   icon: <BookOpen      size={16} color="#F97316" />, pillBg: "rgba(249,115,22,0.10)" },
         { time: "4:30 PM", title: "Tea Break",              isBreak: true,                                  icon: <Coffee        size={16} color="#92400E" />, pillBg: "rgba(146,64,14,0.10)"  },
-        { time: "05:00 PM", title: "Panel Discussion & Closing Ceremony", desc: "Redefining Academic Excellence: Integrating Emotional Wellbeing into HEI Ecosystems",   speaker: "Prof. M. Srivastava, Prof. Anil K. Tripathi, Prof. Rajesh Kumar, Dr. Laxman Yadav & Dr. Soumya Srivastava",                             icon: <Users         size={16} color="#0EA5E9" />, pillBg: "rgba(14,165,233,0.10)" },
+        { time: "05:00 PM", title: "Panel Discussion & Closing Ceremony", desc: "Redefining Academic Excellence: Integrating Emotional Wellbeing into HEI Ecosystems",   speaker: "Prof. M. Srivastava, Prof. Rajesh Kumar, Dr. Laxman Yadav & Dr. Soumya Srivastava",                             icon: <Users         size={16} color="#0EA5E9" />, pillBg: "rgba(14,165,233,0.10)" },
         
       ],
     },
