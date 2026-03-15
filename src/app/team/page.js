@@ -5,7 +5,7 @@ import Image from "next/image"
 const patron = {
   name: "Prof. Amit Patra",
   role: "Director, IIT (BHU), Varanasi",
-  link: "https://www.iitbhu.ac.in/dept/eee/people/amitpatra",
+  link: "https://www.iitbhu.ac.in",
   image: "/team/eee_faculty_amit.png",
   desc: "Prof. Amit Patra is the Director of Indian Institute of Technology (BHU), Varanasi. A distinguished academician and researcher, he has made significant contributions to the fields of electrical engineering. Under his visionary leadership, IIT (BHU) continues to advance its mission of excellence in technical education, research, and holistic student development.",
 }
