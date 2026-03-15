@@ -495,7 +495,7 @@ export default function AboutUs() {
             <StatCard value={5000} suffix="+"  label="Counselling Sessions" icon={<Heart size={20}/>}         color="#F43F5E" delay={100} />
             <StatCard value={9000} suffix="+"  label="Students Benefited"   icon={<Users size={20}/>}         color="#10B981" delay={200} />
             <StatCard value={140}  suffix="+"  label="SAKHA Volunteers"     icon={<LucideTarget size={20}/>}      color="#A855F7" delay={300} />
-            <StatCard value={10}   suffix=""   label="Faculty Coordinators" icon={<GraduationCap size={20}/>} color="#F97316" delay={400} />
+            <StatCard value={11}   suffix=""   label="Faculty Coordinators" icon={<GraduationCap size={20}/>} color="#F97316" delay={400} />
           </div>
         </div>
 
