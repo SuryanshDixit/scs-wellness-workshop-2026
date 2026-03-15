@@ -22,6 +22,7 @@ import {
   Rows,
   Youtube,
   Italic,
+  Users,
 } from 'lucide-react';
 
 // ─── Navigation data ─────────────────────────────────────────
@@ -29,7 +30,8 @@ const NAV_LINKS = [
   { label: 'Home',      href: '/',         Icon: Home,     accent: ['#34d399', '#059669'] },
   { label: 'Schedule',  href: '/schedule', Icon: Calendar, accent: ['#60a5fa', '#2563eb'] },
   { label: 'Speakers',  href: '/speakers', Icon: Mic2,     accent: ['#f472b6', '#db2777'] },
-  { label: 'People',      href: '/team',     Icon: Rows,     accent: ['#fb923c', '#ea580c'] }, 
+  { label: 'People',      href: '/team',     Icon: Rows,     accent: ['#fb923c', '#ea580c'] },
+  { label: 'Participants', href: '/participants', Icon: Users, accent: ['#06b6d4', '#0891b2'] },
   { label: 'About SCS', href: '/about',    Icon: Sparkles, accent: ['#a78bfa', '#7c3aed'] },
 ];
 
