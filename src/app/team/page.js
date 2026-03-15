@@ -210,7 +210,7 @@ export default function TeamPage() {
         }
         .team-page-title {
           font-family: Georgia, 'Times New Roman', serif;
-          font-size: clamp(32px, 5vw, 52px);
+          font-size: 30px;
           font-weight: 700;
           color: #1e293b;
           line-height: 1.15;
@@ -398,7 +398,6 @@ export default function TeamPage() {
       {/* Header */}
       <div className="team-page-header">
         <div className="team-badge"> Wellness Workshop 2026</div>
-        <h1 className="team-page-title">Event Coordinators</h1>
       </div>
 
       {/* ── Patron Section ── */}
@@ -470,6 +469,7 @@ export default function TeamPage() {
 
         {/* Heads */}
         <div className="student-role-group">
+          <h1 className="team-page-title">Event Coordinators</h1>
           <p className="role-group-title">Heads (Wellness Council)</p>
           <div className="student-grid cols-3">
             {studentTeam.slice(3, 6).map((m, i) => (
