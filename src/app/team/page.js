@@ -469,7 +469,7 @@ export default function TeamPage() {
 
         {/* Heads */}
         <div className="student-role-group">
-          <h1 className="team-page-title">Event Coordinators</h1>
+          <h1 className="team-page-title text-center">Event Coordinators</h1>
           <p className="role-group-title">Heads (Wellness Council)</p>
           <div className="student-grid cols-3">
             {studentTeam.slice(3, 6).map((m, i) => (
