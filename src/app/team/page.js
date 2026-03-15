@@ -28,7 +28,7 @@ const facultyTeam = [
     image: "/team/Ellipse_18.webp",
   },
   {
-    name: "Dr. Ajit Kumar Mishra",
+    name: "Prof. Ajit Kumar Mishra",
     role: "Faculty Coordinator",
     org: "Wellness Council",
     org2: "Student Counselling Services",
