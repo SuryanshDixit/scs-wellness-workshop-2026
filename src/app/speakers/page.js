@@ -16,8 +16,8 @@ const speakers = [
     role: "Director",
     org: "IHBAS, New Delhi",
     link: "https://ihbas.delhi.gov.in/ihbas/directors-profile",
-    image: "/speakers/rajinder.jpg",
-    desc: "Prof. Rajinder K. Dhamija is a distinguished neurologist and Director of the Institute of Human Behaviour and Allied Sciences (IHBAS), New Delhi, with over 30 years of experience in Neurology and Public Health. Trained in India and internationally (FRACP, Melbourne), he has made significant contributions, particularly in stroke and movement disorders. He established and led the Neurology Department at Lady Hardinge Medical College and has served as Additional Personal Physician to the Hon’ble Prime Minister of India. A recipient of prestigious awards including the S. Radhakrishnan Memorial National Medical Teacher Award and the National Award for Science and Technology (2021), he has over 140 publications and holds key international roles, including Chair of Movement Disorders at the World Federation of Neurorehabilitation.",
+    image: "/speakers/rajinder1.jpg",
+    desc: "Prof. Rajinder K. Dhamija is a distinguished neurologist and Director of the Institute of Human Behaviour and Allied Sciences (IHBAS), New Delhi, with over 30 years of experience in Neurology and Public Health. Trained in India and internationally (FRACP, Melbourne), he has made significant contributions, particularly in stroke and movement disorders. He established and led the Neurology Department at Lady Hardinge Medical College and has served as Additional Personal Physician to the Hon’ble Prime Minister of India. He is also the Chairman of the UGC committee for the Uniform Policy on Mental Health and Wellbeing in HEIs in India. A recipient of prestigious awards including the S. Radhakrishnan Memorial National Medical Teacher Award and the National Award for Science and Technology (2021), he has over 140 publications and holds key international roles, including Chair of Movement Disorders at the World Federation of Neurorehabilitation.",
   },
   {
     name: "Dr. Lokendra Sharma",
