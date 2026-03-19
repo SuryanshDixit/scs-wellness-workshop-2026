@@ -73,8 +73,8 @@ export default function WellnessDrawerSchedule() {
       icon: <Sun size={28} color="#FBBF24" fill="#FEF9C3" />,
       accentColor: "#1D4ED8",
       events: [
-        { time: "10:30 AM", title: "Session-III: Capacity Building and Management Pathways",      speaker: "Dr. Jitendra Nagpal", icon: <BookOpen      size={16} color="#6366F1" />, pillBg: "rgba(99,102,241,0.10)" },
-        { time: "11:30 AM", title: "Activities",      speaker: "Ms. Geeta Mehrotra", icon: <Users         size={16} color="#0EA5E9" />, pillBg: "rgba(99,102,241,0.10)" },
+        { time: "10:30 AM", title: "Session-III: Life Skills Approach to Promoting Positive Mental Health, Resilience & Wellbeing in HEI's",      speaker: "Dr. Jitendra Nagpal", icon: <BookOpen      size={16} color="#6366F1" />, pillBg: "rgba(99,102,241,0.10)" },
+        { time: "11:30 AM", title: "Group Presentation",      speaker: "Ms. Geeta Mehrotra", icon: <Users         size={16} color="#0EA5E9" />, pillBg: "rgba(99,102,241,0.10)" },
         { time: "1:30 PM", title: "Lunch Break",              isBreak: true,                                  icon: <Coffee        size={16} color="#92400E" />, pillBg: "rgba(146,64,14,0.10)"  },
         { time: "02:30 PM", title: "Session-IV: Professional Management for Severe Problems/Disorders",    speaker: "Dr. Y.P. Balhara",   icon: <GraduationCap size={16} color="#8B5CF6" />, pillBg: "rgba(139,92,246,0.10)" },
         { time: "03:30 PM", title: "Things We Wish We Heard Earlier",    speaker: "Krithika Chandrasekar",   icon: <BookOpen      size={16} color="#F97316" />, pillBg: "rgba(249,115,22,0.10)" },
