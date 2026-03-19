@@ -12,6 +12,14 @@ const speakers = [
     desc: "Prof. S. K. Chaturvedi is a distinguished Indian psychiatrist and former Dean of Behavioural Sciences at the National Institute of Mental Health and Neurosciences (NIMHANS), Bengaluru. He is the core committee member of the committee constituted by UGC for UGC Uniform Policy for the Mental Health and Wellbeing in HEIs in India. He has served as a Senior Professor of Psychiatry. He is widely recognized for his contributions to consultation-liaison psychiatry, psycho-oncology, palliative care, neuropsychiatry, and the study of culture and mental health. Prof. Chaturvedi has authored hundreds of research papers and several books and has played a major role in postgraduate medical training and mental-health research in India.",
   },
   {
+    name: "Prof. Rajinder K. Dhamija",
+    role: "Director",
+    org: "IHBAS, New Delhi",
+    link: "https://ihbas.delhi.gov.in/ihbas/directors-profile",
+    image: "/speakers/rajinder.jpg",
+    desc: "Prof. Rajinder K. Dhamija is a distinguished neurologist and Director of the Institute of Human Behaviour and Allied Sciences (IHBAS), New Delhi, with over 30 years of experience in Neurology and Public Health. Trained in India and internationally (FRACP, Melbourne), he has made significant contributions, particularly in stroke and movement disorders. He established and led the Neurology Department at Lady Hardinge Medical College and has served as Additional Personal Physician to the Hon’ble Prime Minister of India. A recipient of prestigious awards including the S. Radhakrishnan Memorial National Medical Teacher Award and the National Award for Science and Technology (2021), he has over 140 publications and holds key international roles, including Chair of Movement Disorders at the World Federation of Neurorehabilitation.",
+  },
+  {
     name: "Dr. Lokendra Sharma",
     role: "Senior Professor",
     org: "SMS Medical College, Jaipur",
