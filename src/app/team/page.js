@@ -96,6 +96,55 @@ const studentTeam = [
     link: "https://www.linkedin.com/in/pranjalkabra26/",
     image: "/team/WhatsApp Image 2026-03-14 at 7.46.47 PM.jpeg",
   },
+  {
+    name: "Ahad Ali",
+    role: "Co-ordinator",
+    link: "#",
+    image: "/team/IMG-20260318-WA0061.jpg",
+  },
+  {
+    name: "Amruta",
+    role: "Co-ordinator",
+    link: "#",
+    image: "/team/IMG-20260318-WA0067.jpg",
+  },
+  {
+    name: "Harshal",
+    role: "Co-ordinator",
+    link: "#",
+    image: "/team/WhatsApp Image 2025-01-18 at 18.00.47_2135e7ae - Mr. Harshal Patle B.Tech., Chemical Engineering.jpg",
+  },
+  {
+    name: "Keerthana",
+    role: "Co-ordinator",
+    link: "#",
+    image: "/team/IMG_20250720_214232 - Ms. Keerthana Sri K M IDD, Mechanical Engineering.jpg",
+  },
+  {
+    name: "Mimansa",
+    role: "Co-ordinator",
+    link: "#",
+    image: "/team/IMG_20250720_234627 - Mimansa Gulati 4-Yr B.Tech._ Civil Engg.,IIT(BHU.jpg",
+  },
+  {
+    name: "Piyush",
+    role: "Co-ordinator",
+    link: "#",
+    image: "/team/IMG-20240817-WA0225 - Piyush Yadav 5-Yr IDD_ Mechanical Engg.,IIT(BHU.jpg",
+  },
+  {
+    name: "Rimi",
+    role: "Co-ordinator",
+    link: "#",
+    image: "/team/IMG-20250721-WA0002 - Rimi Jain 4-Yr B.Tech._ Civil Engg.,IIT(BHU.jpg",
+  },
+  {
+    name: "Satyam",
+    role: "Co-ordinator",
+    link: "#",
+    image: "/team/IMG_20250720_232518 - Satyam Shreshtha 5-Yr IDD_ Metallurgical Engg.,IIT(BHU.jpg",
+  },
+ 
 ]
 
 function MemberCard({ member }) {
@@ -467,10 +516,19 @@ export default function TeamPage() {
           <div className="section-divider-line" />
         </div>
 
+        {/* Coordinators */}
+        <div className="student-role-group">
+          <p className="role-group-title"> `Coordinators (Wellness Council)`</p>
+          <div className="student-grid cols-3">
+            {studentTeam.slice(7, 14).map((m, i) => (
+              <MemberCard key={i} member={m} />
+            ))}
+          </div>
+        </div>
         {/* Heads */}
         <div className="student-role-group">
           <h1 className="team-page-title text-center">Event Coordinators</h1>
-          <p className="role-group-title">Heads (Wellness Council)</p>
+          <p className="role-group-title"> `Heads (Wellness Council)`</p>
           <div className="student-grid cols-3">
             {studentTeam.slice(3, 6).map((m, i) => (
               <MemberCard key={i} member={m} />
