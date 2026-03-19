@@ -9,7 +9,7 @@ const speakers = [
     org: "NIMHANS, Bangalore",
     link: "https://santoshchaturvedi.in/",
     image: "/speakers/SKC September 2024.JPG",
-    desc: "Prof. S. K. Chaturvedi is a distinguished Indian psychiatrist and former Dean of Behavioural Sciences at the National Institute of Mental Health and Neurosciences (NIMHANS), Bengaluru. He has served as a Senior Professor of Psychiatry. He is widely recognized for his contributions to consultation-liaison psychiatry, psycho-oncology, palliative care, neuropsychiatry, and the study of culture and mental health. Prof. Chaturvedi has authored hundreds of research papers and several books and has played a major role in postgraduate medical training and mental-health research in India.",
+    desc: "Prof. S. K. Chaturvedi is a distinguished Indian psychiatrist and former Dean of Behavioural Sciences at the National Institute of Mental Health and Neurosciences (NIMHANS), Bengaluru. He is the core committee member of the committee constituted by UGC for UGC Uniform Policy for the Mental Health and Wellbeing in HEIs in India. He has served as a Senior Professor of Psychiatry. He is widely recognized for his contributions to consultation-liaison psychiatry, psycho-oncology, palliative care, neuropsychiatry, and the study of culture and mental health. Prof. Chaturvedi has authored hundreds of research papers and several books and has played a major role in postgraduate medical training and mental-health research in India.",
   },
   {
     name: "Dr. Lokendra Sharma",
@@ -25,7 +25,7 @@ const speakers = [
     org: "Moolchand Medicity, New Delhi",
     link: "https://moolchandhealthcare.com/doctors/jitendra-nagpal",
     image: "/speakers/Dr-Jitendra-Nagpal.jpg",
-    desc: "Dr. Jitendra Nagpal is a distinguished Senior Consultant Psychiatrist and the Head of the Institute of Mental Health and Life Skills Promotion at Moolchand Medcity, New Delhi. With over 25 years of clinical experience, he is a nationally recognized expert in child, adolescent, and adult psychiatry, known for his pioneering work in life skills education and school wellness through the Expressions India program. Dr. Nagpal serves as a key advisor to national bodies like the NCPCR and CBSE, and he is a frequent mental health commentator in prominent media outlets such as The Times of India and NDTV.",
+    desc: "Dr. Jitendra Nagpal is a distinguished Senior Consultant Psychiatrist and the Head of the Institute of Mental Health and Life Skills Promotion at Moolchand Medcity, New Delhi. He is the core committee member of the committee constituted by UGC for UGC Uniform Policy for the Mental Health and Wellbeing in HEIs in India. With over 25 years of clinical experience, he is a nationally recognized expert in child, adolescent, and adult psychiatry, known for his pioneering work in life skills education and school wellness through the Expressions India program. Dr. Nagpal serves as a key advisor to national bodies like the NCPCR and CBSE, and he is a frequent mental health commentator in prominent media outlets such as The Times of India and NDTV.",
   },
   {
     name: "Dr. Geeta Mehrotra",
