@@ -520,12 +520,7 @@ export default function TeamPage() {
         <div className="student-role-group">
           <p className="role-group-title"> Coordinators (Wellness Council)</p>
           <div className="student-grid cols-3">
-            {studentTeam.slice(6, 12).map((m, i) => (
-              <MemberCard key={i} member={m} />
-            ))}
-          </div>
-          <div className="student-grid cols-3">
-            {studentTeam.slice(12, 14).map((m, i) => (
+            {studentTeam.slice(6, 14).map((m, i) => (
               <MemberCard key={i} member={m} />
             ))}
           </div>
