@@ -45,11 +45,11 @@ const speakers = [
   },
   {
     name: "Prof. Santanu Misra",
-    role: "Head of Institute Counselling Service",
+    role: "Professor",
     org: "IIT Kanpur",
     link: "https://home.iitk.ac.in/~smisra/",
     image: "/speakers/WhatsApp Image 2026-03-14 at 8.02.03 PM.jpeg",
-    desc: "Prof. Santanu Misra is a distinguished Professor in the Department of Earth Sciences at the Indian Institute of Technology (IIT), Kanpur, where he also serves as the Head of the Institute Counselling Service (ICS). A renowned structural geologist and a recipient of the prestigious DST Swarnajayanti Fellowship and the INSA Young Scientist Award, he leads the Experimental Rock Deformation Laboratory, a national facility. In his role at the ICS, Prof. Misra oversees crucial mental health initiatives, including suicide prevention workshops, de-addiction clinics, and extensive orientation programs for over 3,000 students annually.",
+    desc: "Prof. Santanu Misra is a distinguished Professor in the Department of Earth Sciences at the Indian Institute of Technology (IIT), Kanpur. As a former Head of the Institute Counselling Service (ICS), he played a crucial role in overseeing key mental health initiatives, including suicide prevention workshops, de-addiction clinics, and extensive orientation programs for over 3,000 students annually. A renowned structural geologist and recipient of the prestigious DST Swarnajayanti Fellowship and the INSA Young Scientist Award, he also leads the Experimental Rock Deformation Laboratory, a national facility.",
   },
   {
     name: "Dr. Krithika Chandrasekar",
