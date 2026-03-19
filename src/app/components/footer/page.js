@@ -386,7 +386,7 @@ export default function Footer() {
                       }}
                     >
                       sakha.scs@iitbhu.ac.in
-                    </a>
+                    </a> (Student Counselling Services)
                     &
                     <a
                       href="mailto:adosa_scs@iitbhu.ac.in"
@@ -399,7 +399,7 @@ export default function Footer() {
                       }}
                     >
                       adosa_scs@iitbhu.ac.in
-                    </a>
+                    </a> (Prof. Abhishekh K. Srivastava)
 
                     </div>
                   </div>
