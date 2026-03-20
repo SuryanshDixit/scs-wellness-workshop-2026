@@ -7,8 +7,8 @@ export const metadata = {
   title: "SCS Wellness Workshop 2026",
   description: "Wellness Workshop by Student Counselling Services, IIT (BHU)",
   icons: {
-    icon: "/favicon.png",        // your favicon file
-    apple: "/favicon.png",       // for iOS home screen
+    icon: "/favicon.ico",        // your favicon file
+    apple: "/favicon.ico",       // for iOS home screen
   },
 };
 
