@@ -134,7 +134,7 @@ export default function ParticipantsPage() {
         <div className="pt-card">
           <iframe
             className="pt-list-embed"
-            src="https://docs.google.com/spreadsheets/u/3/d/e/2PACX-1vRpsQPfOS0GmaZoYHaJVmjd9nUx3kxeEaS07IEo2mjyr5T5u3yrISEY0lhNoRGdCiSlab2uU-2twz0Y/pubhtml?widget=true&amp;headers=false"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTCWNBQeu7g5LSWiLL2Lcf8SFX5mPqMuoDhHT_eRD6lUKJdFVRbL_azYEK5DagO35L4fC5e96Tsi9Ug/pubhtml"
           />
           
           <p className="pt-note">⚠️ The faculty list will be updated soon.</p>
