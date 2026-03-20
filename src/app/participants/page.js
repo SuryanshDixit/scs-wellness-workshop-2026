@@ -132,13 +132,11 @@ export default function ParticipantsPage() {
         </div>
 
         <div className="pt-card">
-          <div className="pt-coming-soon">
-            <div className="pt-coming-soon-icon">📋</div>
-            <p className="pt-coming-soon-title">Faculty List Coming Soon</p>
-            <p className="pt-coming-soon-sub">
-              The faculty participants list will be published here shortly. Please check back after the link is updated.
-            </p>
-          </div>
+          <iframe
+            className="pt-list-embed"
+            src="https://docs.google.com/spreadsheets/u/3/d/e/2PACX-1vRpsQPfOS0GmaZoYHaJVmjd9nUx3kxeEaS07IEo2mjyr5T5u3yrISEY0lhNoRGdCiSlab2uU-2twz0Y/pubhtml?widget=true&amp;headers=false"
+          />
+          
           <p className="pt-note">⚠️ The faculty list will be updated soon.</p>
         </div>
 
