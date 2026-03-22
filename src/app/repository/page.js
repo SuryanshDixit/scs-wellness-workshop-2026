@@ -25,7 +25,7 @@ const sessions = [
     org: "IIT Kanpur",
     image: "/speakers/WhatsApp Image 2026-03-14 at 8.02.03 PM.jpeg",
     session: "Wellbeing across the IIT system",
-    date: "22nd March 2026",
+    date: "21st March 2026",
     pdf: "/repositories/IIT_BHU_WellnessWorkshop_Mar26.pdf",
   },
   
