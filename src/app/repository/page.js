@@ -16,44 +16,9 @@ const sessions = [
     image: "/speakers/SKC September 2024.JPG",
     session: "Mental Health Framework in Higher Education",
     date: "21st March 2026",
-    pdf: "/repository/session-chaturvedi.pdf",
+    pdf: "/repository/Essentials of Mental Wellbeing and a Healthy Supportive Ecosystem for Students in Professional Courses",
   },
-  {
-    speaker: "Dr. Lokendra Sharma",
-    role: "Senior Professor",
-    org: "SMS Medical College, Jaipur",
-    image: "/speakers/Screenshot 2026-03-13 141908.png",
-    session: "Pharmacological Approaches to Student Wellbeing",
-    date: "21st March 2026",
-    pdf: "/repository/session-lokendra.pdf",
-  },
-  {
-    speaker: "Dr. Jitendra Nagpal",
-    role: "Senior Consultant Psychiatrist",
-    org: "Moolchand Medicity, New Delhi",
-    image: "/speakers/Dr-Jitendra-Nagpal.jpg",
-    session: "Life Skills Education & School Wellness",
-    date: "21st March 2026",
-    pdf: "/repository/session-nagpal.pdf",
-  },
-  {
-    speaker: "Dr. Geeta Mehrotra",
-    role: "Senior Advisor (Academics and Training)",
-    org: "Expressions India",
-    image: "/speakers/Screenshot 2026-03-13 143352.png",
-    session: "Stress Management & Resilience Building",
-    date: "22nd March 2026",
-    pdf: "/repository/session-mehrotra.pdf",
-  },
-  {
-    speaker: "Dr. Yatan Pal Singh Balhara",
-    role: "Professor of Psychiatry",
-    org: "AIIMS, New Delhi",
-    image: "/speakers/WhatsApp Image 2026-03-14 at 7.59.49 PM.jpeg",
-    session: "Digital Mental Health & Addiction",
-    date: "22nd March 2026",
-    pdf: "/repository/session-balhara.pdf",
-  },
+ 
   {
     speaker: "Prof. Santanu Misra",
     role: "Head of Institute Counselling Service",
@@ -61,17 +26,9 @@ const sessions = [
     image: "/speakers/WhatsApp Image 2026-03-14 at 8.02.03 PM.jpeg",
     session: "Suicide Prevention & Campus Mental Health Initiatives",
     date: "22nd March 2026",
-    pdf: "/repository/session-misra.pdf",
+    pdf: "/repository/IIT_BHU_WellnessWorkshop_Mar26.pdf",
   },
-  {
-    speaker: "Dr. Krithika Chandrasekar",
-    role: "Author & Mental Health Advocate",
-    org: "",
-    image: "/speakers/WhatsApp Image 2026-03-14 at 7.54.00 PM.jpeg",
-    session: "The Power of Voice: Creative Expression & Healing",
-    date: "22nd March 2026",
-    pdf: "/repository/session-krithika.pdf",
-  },
+  
 ]
 
 function SessionCard({ session, onView }) {
