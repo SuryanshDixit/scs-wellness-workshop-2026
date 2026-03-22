@@ -94,7 +94,9 @@ function PdfModal({ session, onClose }) {
         {/* PDF embed */}
         <div className="repo-modal-body">
           <iframe
-            src={`${session.pdf}#toolbar=1&navpanes=0`}
+            src={`https://docs.google.com/viewer?url=${encodeURIComponent(
+              `https://scswellnessworkshop2026.com${session.pdf}`
+            )}&embedded=true`}
             className="repo-pdf-iframe"
             title={session.session}
           />
