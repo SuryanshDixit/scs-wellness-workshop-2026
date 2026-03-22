@@ -10,6 +10,7 @@ const navItems = [
   { label: "Speakers",  href: "/speakers", emoji: "🎤" },
   { label: "People",      href: "/team",     emoji: "🤝" },
   { label: "Participants", href: "/participants", emoji: "👥" },
+  { label: "Knowledge Repository", href: "/repository",  emoji: "📚" },
   { label: "About SCS", href: "/about",    emoji: "✨" },
 ];
 
