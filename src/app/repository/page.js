@@ -16,7 +16,7 @@ const sessions = [
     image: "/speakers/SKC September 2024.JPG",
     session: "Mental Health Framework in Higher Education",
     date: "21st March 2026",
-    pdf: "/repositories/Essentials of Mental Wellbeing and a Healthy Supportive Ecosystem for Students in Professional Courses",
+    pdf: "/repositories/Essentials of Mental Wellbeing and a Healthy Supportive Ecosystem for Students in Professional Courses.pdf",
   },
  
   {
