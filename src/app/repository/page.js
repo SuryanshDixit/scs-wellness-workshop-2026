@@ -28,7 +28,15 @@ const sessions = [
     date: "21st March 2026",
     pdf: "/repositories/IIT_BHU_WellnessWorkshop_Mar26.pdf",
   },
-  
+  {
+    speaker: "Dr. Jitendra Nagpal",
+    role: "Senior Consultant Psychiatrist",
+    org: "Moolchand Medicity, New Delhi",
+    image: "/speakers/Dr-Jitendra-Nagpal.jpg",
+    session: "Integrated Approach to Promoting Positive Mental Health, Resilience & Wellbeing in HEI's",
+    date: "22nd March 2026",
+    pdf: "/repository/Integrated Approach to Promoting Positive Mental Health, Resilience & Wellbeing in HEI's.pdf",
+  },
 ]
 
 function SessionCard({ session, onView }) {
