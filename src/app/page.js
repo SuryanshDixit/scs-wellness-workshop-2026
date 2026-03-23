@@ -24,6 +24,27 @@ const slides = [
   },
 ]
 
+const slides = [
+  {
+    src: "/WhatsApp Image 2026-03-12 at 7.30.50 PM.jpeg",
+    caption: "Wellness Workshop 2026",
+    sub: "Day 1 · आयुष एवं चैतन्य की ओर",
+    objectPosition: "center center",  // 👈 add this
+  },
+  {
+    src: "/gallery/Screenshot 2026-03-24 025334.png",
+    caption: "Day 1 — A Successful Beginning",
+    sub: "21st March 2026",
+    objectPosition: "center top",     // 👈 group photos — keep heads visible
+  },
+  {
+    src: "/gallery/Pi7_image_tool.jpeg",
+    caption: "Day 2 — Closing Ceremony",
+    sub: "22nd March 2026",
+    objectPosition: "center top",     // 👈 group photos — keep heads visible
+  },
+]
+
 function ImageSlider() {
   const [current, setCurrent] = useState(0)
   const [animating, setAnimating] = useState(false)
@@ -245,14 +266,14 @@ const Page = () => {
 
           {/* Image */}
           <div className="relative w-full h-[400px] md:h-[500px] rounded-[40px] overflow-hidden shadow-2xl border-[12px] border-white/50">
-            <Image
-              src="/welcome.jpg"
-              alt="Welcome to Sakha Wellness"
-              fill
-              className="object-cover"
-              priority
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
+          <Image
+            src={slides[current].src}
+            alt={slides[current].caption}
+            fill
+            className="object-cover"
+            style={{ objectPosition: slides[current].objectPosition || "center center" }}
+            priority
+          />
           </div>
 
         </div>
