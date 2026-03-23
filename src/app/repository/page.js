@@ -37,6 +37,15 @@ const sessions = [
     date: "22nd March 2026",
     pdf: "/repositories/Integrated Approach to Promoting Positive Mental Health, Resilience & Wellbeing in HEI's.pdf",
   },
+  {
+    speaker: "Dr. Krithika Chandrasekar",
+    role: "Author & Mental Health Advocate",
+    org: "",
+    image: "/speakers/WhatsApp Image 2026-03-14 at 7.54.00 PM.jpeg",
+    session: "Things We Wish We Heard Earlier",
+    date: "22nd March 2026",
+    pdf: "/repositories/session-krithika.pdf",
+  },
 ]
 
 function SessionCard({ session, onView }) {
