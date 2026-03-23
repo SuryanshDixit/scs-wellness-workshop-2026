@@ -13,7 +13,7 @@ const slides = [
     sub: "Day 1 · आयुष एवं चैतन्य की ओर",
   },
   {
-    src: "/gallery/Pi7_image_tool.png",
+    src: "/gallery/Pi7_image_tool.jpeg",
     caption: "Day 1 — A Successful Beginning",
     sub: "21st March 2026 · D&V Lecture Hall, IIT (BHU)",
   },
