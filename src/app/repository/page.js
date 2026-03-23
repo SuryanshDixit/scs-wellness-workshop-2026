@@ -35,7 +35,7 @@ const sessions = [
     image: "/speakers/Dr-Jitendra-Nagpal.jpg",
     session: "Integrated Approach to Promoting Positive Mental Health, Resilience & Wellbeing in HEI's",
     date: "22nd March 2026",
-    pdf: "/repository/Integrated Approach to Promoting Positive Mental Health, Resilience & Wellbeing in HEI's.pdf",
+    pdf: "/repositories/Integrated Approach to Promoting Positive Mental Health, Resilience & Wellbeing in HEI's.pdf",
   },
 ]
 
