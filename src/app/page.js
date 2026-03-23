@@ -51,7 +51,7 @@ function ImageSlider() {
         .slider-root {
           position: relative;
           width: 100%;
-          height: 520px;
+          height: 700px;
           overflow: hidden;
           background: #0f172a;
         }
