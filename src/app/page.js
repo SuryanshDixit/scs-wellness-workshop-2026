@@ -6,23 +6,6 @@ import Link from "next/link";
 
 // ─── Add your celebration images here ───────────────────────
 // Place images in /public/gallery/ folder
-const slides = [
-  {
-    src: "/WhatsApp Image 2026-03-12 at 7.30.50 PM.jpeg",
-    caption: "Wellness Workshop 2026",
-    sub: "Day 1 · आयुष एवं चैतन्य की ओर",
-  },
-  {
-    src: "/gallery/Pi7_image_tool.jpeg",
-    caption: "Day 1 — A Successful Beginning",
-    sub: "21st March 2026 · D&V Lecture Hall, IIT (BHU)",
-  },
-  {
-    src: "/gallery/Screenshot 2026-03-24 025334.png",
-    caption: "Day 2 — Closing Ceremony",
-    sub: "22nd March 2026 · D&V Lecture Hall, IIT (BHU)",
-  },
-]
 
 const slides = [
   {
