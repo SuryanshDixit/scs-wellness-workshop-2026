@@ -29,16 +29,22 @@ const slides = [
 ]
 
 function ImageSlider() {
+  const [mounted, setMounted] = useState(false)
   const [current, setCurrent] = useState(0)
   const [animating, setAnimating] = useState(false)
 
-  // Auto-advance every 4 seconds
+  // Wait for client mount
   useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  useEffect(() => {
+    if (!mounted) return
     const timer = setInterval(() => {
       goTo((current + 1) % slides.length)
     }, 4000)
     return () => clearInterval(timer)
-  }, [current])
+  }, [current, mounted])
 
   function goTo(index) {
     if (animating) return
@@ -48,6 +54,11 @@ function ImageSlider() {
       setAnimating(false)
     }, 400)
   }
+
+  // Don't render on server
+  if (!mounted) return (
+    <div style={{ width: "100%", height: "520px", background: "#0f172a" }} />
+  )
 
   return (
     <div className="slider-root">
