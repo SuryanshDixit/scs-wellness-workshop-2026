@@ -44,7 +44,7 @@ const sessions = [
     image: "/speakers/WhatsApp Image 2026-03-14 at 7.54.00 PM.jpeg",
     session: "Things We Wish We Heard Earlier",
     date: "22nd March 2026",
-    pdf: "/repositories/MARCH 22 TALK AT IIT BHU - DR C KRITHIKA .pdf",
+    pdf: "/repositories/krithika-talk.pdf",
   },
 ]
 
